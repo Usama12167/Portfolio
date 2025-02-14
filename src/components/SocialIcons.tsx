@@ -14,7 +14,7 @@ export function InstagramIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     </svg>
   )
 }
-
+console.log('hh')
 export function GitHubIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
