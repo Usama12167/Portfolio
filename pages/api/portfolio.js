@@ -268,6 +268,82 @@ const portfolio = [
       },
     ],
   },
+  {
+    id: 3,
+    projectName: "Befer(Android App)",
+    url: "https://play.google.com/store/apps/details?id=com.befer",
+    image: "projects/Befer.png",
+    projectDetail:
+      "Befer is the ultimate mobile application designed specifically for service-based businesses seeking to streamline operations and enhance customer relationships. Our platform empowers business owners to manage every aspect of their service operations from anywhere, at any time",
+    technologiesUsed: [
+      {
+        tech: "React Native",
+      },
+
+      {
+        tech: "In App-Purchashing",
+      },
+      {
+        tech: "Zustand",
+      },
+      {
+        tech: "Stripe Payment Gateway",
+      },
+      {
+        tech: "MKV",
+      },
+      {
+        tech: "Revenu Cat",
+      },
+      {
+        tech: "Map Box",
+      },
+      {
+        tech: "Sentry.io",
+      },
+      {
+        tech: "Revopush",
+      },
+    ],
+  },
+  {
+    id: 4,
+    projectName: "Befer(Ios App)",
+    url: "https://apps.apple.com/sa/app/befer/id6743770580",
+    image: "projects/Befer.png",
+    projectDetail:
+      "Befer is the ultimate mobile application designed specifically for service-based businesses seeking to streamline operations and enhance customer relationships. Our platform empowers business owners to manage every aspect of their service operations from anywhere, at any time",
+    technologiesUsed: [
+      {
+        tech: "React Native",
+      },
+
+      {
+        tech: "In App-Purchashing",
+      },
+      {
+        tech: "Zustand",
+      },
+      {
+        tech: "Stripe Payment Gateway",
+      },
+      {
+        tech: "MKV",
+      },
+      {
+        tech: "Revenu Cat",
+      },
+      {
+        tech: "Map Box",
+      },
+      {
+        tech: "Sentry.io",
+      },
+      {
+        tech: "Revopush",
+      },
+    ],
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
