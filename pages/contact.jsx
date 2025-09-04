@@ -70,7 +70,7 @@ const Contact = () => {
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href="www.linkedin.com/in/usama-shahzad-737969261"
+            href="https://www.linkedin.com/in/usama-shahzad-737969261"
             target="_blank"
             rel="noreferrer"
           >
