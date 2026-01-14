@@ -89,9 +89,7 @@ const portfolio = [
       {
         tech: "REST API's",
       },
-      {
-        tech: "Ant Design",
-      },
+
       {
         tech: "Redux Toolkit",
       },
@@ -219,6 +217,7 @@ const portfolio = [
       {
         tech: "CSS",
       },
+      { tech: "Strapi.js" },
     ],
   },
   {
@@ -244,6 +243,7 @@ const portfolio = [
       {
         tech: "CSS",
       },
+      { tech: "Strapi.js" },
     ],
   },
   {
@@ -266,6 +266,7 @@ const portfolio = [
       {
         tech: "CSS",
       },
+      { tech: "Strapi.js" },
     ],
   },
   {
@@ -341,6 +342,37 @@ const portfolio = [
       },
       {
         tech: "Revopush",
+      },
+    ],
+  },
+  {
+    id: 5,
+    projectName: "Befer Web App",
+    url: "https://app.befer.co/",
+    image: "projects/Befer.png",
+    projectDetail:
+      "Befer is the ultimate mobile application designed specifically for service-based businesses seeking to streamline operations and enhance customer relationships. Our platform empowers business owners to manage every aspect of their service operations from anywhere, at any time",
+    technologiesUsed: [
+      {
+        tech: "React JS",
+      },
+
+      {
+        tech: "Zustand",
+      },
+      {
+        tech: "Stripe Payment Gateway",
+      },
+
+      {
+        tech: "Google Map",
+      },
+
+      {
+        tech: "Ant Design",
+      },
+      {
+        tech: "TailwindCSS",
       },
     ],
   },
