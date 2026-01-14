@@ -15,11 +15,11 @@ export const SKILLS = [
   },
   {
     title: "React Developer",
-    level: "60%",
+    level: "90%",
   },
   {
     title: "Next Js",
-    level: "70%",
+    level: "90%",
   },
   {
     title: "Appium Testing",
