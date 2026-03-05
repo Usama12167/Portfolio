@@ -376,6 +376,43 @@ const portfolio = [
       },
     ],
   },
+  {
+    id: 5,
+    projectName: "Breezy Pay(Android App)",
+    url: "https://play.google.com/store/apps/details?id=net.breezypay.app",
+    image: "projects/breezy.png",
+    projectDetail:
+      "We offer a revolutionary platform connecting STR hosts with verified cleaning professionals. Using blockchain technology, we create an entirely new standard: every job, from booking to payment, is securely recorded and transparently visible, ensuring unmatched accountability and peace of mind.Our platform eliminates common frustrations, ensuring fair pay for cleaners and guaranteed quality for hosts. We provide real-time tracking, verified histories, and a dispute-resolution system built on immutable data. Ultimately, we streamline the entire STR cleaning process.",
+    technologiesUsed: [
+      {
+        tech: "React Native",
+      },
+
+      {
+        tech: "Redux Toolkit",
+      },
+      {
+        tech: "Paypal Payment Gateway",
+      },
+
+      {
+        tech: "Wallet Connection",
+      },
+
+      {
+        tech: "Ant Design",
+      },
+      {
+        tech: "web3",
+      },
+      {
+        tech: "crypto wallet",
+      },
+      {
+        tech: "blockchain",
+      },
+    ],
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
