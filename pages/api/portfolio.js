@@ -403,7 +403,7 @@ const portfolio = [
         tech: "Ant Design",
       },
       {
-        tech: "web3",
+        tech: "web3 ",
       },
       {
         tech: "crypto wallet",
