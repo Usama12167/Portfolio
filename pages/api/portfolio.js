@@ -378,7 +378,7 @@ const portfolio = [
   },
   {
     id: 5,
-    projectName: "Breezy Pay(Android App)",
+    projectName: "BreezyPay(Android App)",
     url: "https://play.google.com/store/apps/details?id=net.breezypay.app",
     image: "projects/breezy.png",
     projectDetail:
