@@ -29,7 +29,7 @@ const Nav = ({ setIsOpen, isOpen }) => {
             NavIcon={<FaHandshake />}
             NavText={"Contact"}
           />
-          {/* <NavItem setIsOpen={setIsOpen} NavRoute={'/background'} NavIcon={<HiIdentification />} NavText={'Background'} /> */}
+          <NavItem setIsOpen={setIsOpen} NavRoute={'/background'} NavIcon={<HiIdentification />} NavText={'Background'} />
           <NavItem
             setIsOpen={setIsOpen}
             NavRoute={"/portfolio"}

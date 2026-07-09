@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="">
               <div className="">
                 <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
-                  Hello, Check This Out!
+                  Hi, I'm Usama Shahzad
                 </h1>
               </div>
               <div className="">
@@ -28,8 +28,9 @@ const Banner = () => {
                         <Typewriter
                           options={{
                             strings: [
-                              "React Native  Mobile App Developer",
-                              "React Js Developer",
+                              "React Native Developer",
+                              "React.js Developer",
+                              "Software Engineer",
                             ],
                             autoStart: true,
                             loop: true,
@@ -70,31 +71,24 @@ const Banner = () => {
         <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
-              5+
+              3+
+            </span>
+            <span className="text-xs text-Snow">Years Experience</span>
+          </div>
+
+          <div className="flex items-center gap-x-1">
+            <span className="text-base md:text-lg text-Green font-bold">
+              6+
             </span>
             <span className="text-xs text-Snow">Completed Projects</span>
           </div>
 
-          {/* <div className="flex items-center gap-x-1">
-            <span className="text-base md:text-lg text-Green font-bold">
-              8+
-            </span>
-            <span className="text-xs text-Snow">Freelance Clients</span>
-          </div> */}
-
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
-              5+
+              3
             </span>
-            <span className="text-xs text-Snow">Certification</span>
+            <span className="text-xs text-Snow">Certifications</span>
           </div>
-
-          {/* <div className="flex items-center gap-x-1">
-            <span className="text-base md:text-lg text-Green font-bold">
-              10+
-            </span>
-            <span className="text-xs text-Snow">Opensource Projects</span>
-          </div> */}
         </div>
       </div>
     </BannerLayout>

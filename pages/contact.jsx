@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Linkedin:</span>
-                <span className="text-LightGray text-sm">usama shahzad</span>
+                <a href="https://www.linkedin.com/in/usama-shahzad-737969261" target="_blank" rel="noreferrer" className="text-LightGray text-sm hover:text-Green transition-colors">usama-shahzad-737969261</a>
               </div>
               <div className="flex justify-between items-center">
                 <span className="md:text-base">Phone:</span>
@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href=""
+            href="mailto:usamashahzad535@gmail.com"
             target="_blank"
             rel="noreferrer"
           >

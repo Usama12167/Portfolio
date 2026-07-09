@@ -1,23 +1,33 @@
 const expertise = [
   {
     id: 0,
-    title: "React Native Mobile App Developer",
-    desc: "I am a skilled Mobile App Developer During my career, I have successfully developed and optimized cross-platform apps, integrating third-party APIs, state management solutions (Redux, Context API), and backend services. My expertise in React Native, TypeScript, and mobile UI/UX principles allows me to craft user-friendly, scalable, and efficient applications.",
+    title: "React Native Development",
+    desc: "Building scalable, high-performance cross-platform mobile applications using React Native (CLI & Expo). Proficient in React Navigation, Reanimated animations, Redux state management, and delivering production-ready apps to the Apple App Store and Google Play Store.",
   },
   {
     id: 1,
-    title: "Scrum and Jira",
-    desc: "As a developer, I'm proficient in Jira and Scrum methodologies. I use Jira to simplify project management tasks like task assignment, prioritization, and progress tracking. Scrum has improved my teamwork, utilizing daily stand-ups, sprint planning, and retrospectives. My expertise ensures high-quality software products are delivered promptly.",
+    title: "React.js & Next.js",
+    desc: "Developing modern, responsive web interfaces with React.js and Next.js, focused on scalability and maintainability. Skilled in Redux, Context API, Tailwind CSS, and integrating REST APIs for dynamic, data-driven web applications.",
   },
   {
     id: 2,
-    title: "Converting Figma designs",
-    desc: "I specialize in converting Figma designs into fully functional React Native applications. Through hackathons and freelance projects, I have gained hands-on experience in transforming UI/UX concepts into responsive and user-friendly mobile interfaces. My passion for design and development allows me to continuously refine my creative and technical skills in building seamless digital experiences.",
+    title: "Payment & Third-Party Integrations",
+    desc: "Extensive experience integrating Stripe and PayPal for secure, seamless payment flows. Also skilled with RevenueCat (in-app purchases), Mapbox, push notifications, and other third-party SDKs that enhance app functionality.",
   },
   {
     id: 3,
-    title: "Github Hub",
-    desc: "GitHub is essential for version control and collaboration. Its intuitive interface and features like pull requests and issue tracking simplify the process. Continuous integration ensures up-to-date code. GitHub is vital to my success as a developer.",
+    title: "Performance Optimization",
+    desc: "Identifying and resolving performance bottlenecks in mobile and web applications. Applying lazy loading, memoization, efficient state management, and debugging techniques to deliver smooth, reliable user experiences.",
+  },
+  {
+    id: 4,
+    title: "AI-Assisted Development",
+    desc: "Integrating AI-assisted workflows using tools like Cursor and OpenAI APIs to accelerate development efficiency. Experienced in building event-driven features including real-time updates, async workflows, and intelligent notifications.",
+  },
+  {
+    id: 5,
+    title: "Agile & Team Collaboration",
+    desc: "Strong background working in Agile/Scrum environments with sprint planning, daily stand-ups, and retrospectives. Experienced collaborating with cross-functional teams, using GitHub for version control, and documenting features for clear product delivery.",
   },
 ];
 

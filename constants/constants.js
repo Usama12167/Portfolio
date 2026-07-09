@@ -1,6 +1,6 @@
 export const NAME = "Usama Shahzad";
 
-export const DESIGNATION = `React Native Mobile App Developer | Open Source Contributor`;
+export const DESIGNATION = `Software Engineer (React Native, React.js)`;
 
 export const DETAILS = {
   Residence: "Pakistan",
@@ -10,42 +10,46 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: "React Native Developer",
-    level: "98%",
+    title: "React Native (CLI & Expo)",
+    level: "95%",
   },
   {
-    title: "React Developer",
+    title: "React.js / Next.js",
     level: "90%",
   },
   {
-    title: "Next Js",
-    level: "90%",
+    title: "TypeScript / JavaScript (ES6+)",
+    level: "92%",
   },
   {
-    title: "Appium Testing",
-    level: "60%",
+    title: "Redux / Context API",
+    level: "88%",
   },
   {
-    title: "Detox Testing",
-    level: "60%",
+    title: "Stripe / PayPal Integration",
+    level: "85%",
   },
 ];
 
 export const TECH_STACK = [
-  "JavaScript",
-  "ReactJS",
-  "NextJS",
+  "React Native",
+  "React.js",
+  "Next.js",
+  "JavaScript (ES6+)",
   "TypeScript",
   "Redux",
-  "CSS",
-  "TailwindCSS",
-  "Ant Design",
-  "Material UI",
-  "Next UI",
+  "Context API",
+  "Tailwind CSS",
   "REST API",
+  "Stripe",
+  "PayPal",
+  "RevenueCat",
+  "Mapbox",
+  "Push Notifications",
+  "Agile / Scrum",
   "GitHub",
-  "Jira",
   "Figma",
+  "Cursor",
 ];
 
 export const CONTACTS = {
@@ -54,5 +58,5 @@ export const CONTACTS = {
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/Usama12167",
-  LINKEDIN: "www.linkedin.com/in/usama-shahzad-737969261",
+  LINKEDIN: "https://www.linkedin.com/in/usama-shahzad-737969261",
 };
