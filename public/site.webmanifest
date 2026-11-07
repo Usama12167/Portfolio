@@ -1,0 +1,9 @@
+{
+  "name": "Usama Shahzad · React Native Developer",
+  "short_name": "Usama Shahzad",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#070B16",
+  "background_color": "#070B16",
+  "display": "standalone",
+  "start_url": "/"
+}

@@ -1,18 +1,35 @@
-import Footer from "../components/Footer";
-import Banner from "../components/HomeComponents/Banner";
-import MyExpertise from "../components/HomeComponents/Expertise/MyExpertise";
-import Recommendations from "../components/HomeComponents/Recommendations/Recommendations";
-import ClientReviews from "../components/HomeComponents/ClientReviews/ClientReviews";
-const home = () => {
-  return (
-    <div className="Home-Page -z-10">
-      <Banner />
-      <MyExpertise />
-      {/* <Recommendations /> */}
-      {/* <ClientReviews /> */}
-      <Footer />
-    </div>
-  );
-};
+import Hero from "../components/site/Hero";
+import Projects from "../components/site/Projects";
+import { Contact, Education, Experience, Footer, Header, Marquee, Skills, Stats } from "../components/site/Sections";
+import { useScrollReveal } from "../components/site/shared";
+import Seo from "../components/site/Seo";
 
-export default home;
+export default function Home() {
+  useScrollReveal();
+
+  return (
+    <>
+      <Seo />
+
+      <div className="grid-bg" aria-hidden="true" />
+      <Header />
+
+      <main id="top">
+        <div className="wrap">
+          <Hero />
+          <Stats />
+        </div>
+        <Marquee />
+        <div className="wrap">
+          <Projects />
+          <Skills />
+          <Experience />
+          <Education />
+          <Contact />
+        </div>
+      </main>
+
+      <Footer />
+    </>
+  );
+}
