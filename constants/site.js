@@ -224,3 +224,36 @@ export const SEO = {
   locale: "en_US",
   sameAs: ["https://www.linkedin.com/in/usama-shahzad-737969261", "https://github.com/Usama12167"],
 };
+
+// ---- Scroll showcase ----
+// The phone assembles from parts, then switches between these apps as you scroll.
+// glow: colour of the pedestal ring for that app. specs: [big value, small label].
+export const SHOWCASE_STEPS = [
+  "Native shell for iOS and Android",
+  "UI, built piece by piece",
+  "Payments, data and push",
+  "Shipped. Pick an app",
+];
+
+export const SHOWCASE = [
+  {
+    key: "breezy", name: "BreezyPay", subtitle: "Payments for short‑term rental cleaning",
+    logo: "/projects/breezy.png", initials: "Bz", glow: "#3DD9EB",
+    specs: [["Stripe", "payouts & withdrawals"], ["Plaid", "bank account linking"], ["Solana", "Phantom wallet signing"], ["Live", "balance push alerts"]],
+  },
+  {
+    key: "befer", name: "Befer", subtitle: "CRM for service‑based businesses",
+    logo: "/projects/Befer.png", initials: "Bf", glow: "#8B7CFF",
+    specs: [["RevenueCat", "in‑app subscriptions"], ["Mapbox", "job locations"], ["OpenAI", "smart automation"], ["Web + App", "React Native & React"]],
+  },
+  {
+    key: "udress", name: "uDress", subtitle: "Fashion marketplace",
+    logo: "/projects/udress.ico", initials: "uD", glow: "#FF7AB6",
+    specs: [["GraphQL", "catalog & filters"], ["Stripe", "checkout"], ["Chat", "buyer ↔ seller"], ["Reanimated", "smooth motion"]],
+  },
+  {
+    key: "etihad", name: "Etihad Town", subtitle: "Community management",
+    logo: "/projects/etihad.webp", initials: "ET", glow: "#FFB547",
+    specs: [["Push", "announcements"], ["Requests", "maintenance tickets"], ["Files", "upload & download"], ["GraphQL", "+ REST APIs"]],
+  },
+];

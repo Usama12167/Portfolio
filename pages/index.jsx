@@ -3,6 +3,7 @@ import Projects from "../components/site/Projects";
 import { Contact, Education, Experience, Footer, Header, Marquee, Skills, Stats } from "../components/site/Sections";
 import { useScrollReveal } from "../components/site/shared";
 import Seo from "../components/site/Seo";
+import Showcase from "../components/site/Showcase";
 
 export default function Home() {
   useScrollReveal();
@@ -20,6 +21,7 @@ export default function Home() {
           <Stats />
         </div>
         <Marquee />
+        <Showcase />
         <div className="wrap">
           <Projects />
           <Skills />
